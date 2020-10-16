@@ -23,3 +23,5 @@ end
 def best_tipper
   @@all.map { |tips| meal.customer }
 end
+
+end
