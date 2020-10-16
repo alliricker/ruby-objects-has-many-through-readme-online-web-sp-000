@@ -10,7 +10,7 @@ def initialize(waiter, customer, total, tip)
 end
 
 def self.all
-  @@all 
+  @@all
 end
 
 end
