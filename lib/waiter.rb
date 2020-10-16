@@ -19,3 +19,4 @@ end
 def meals
   Meal.all.select { |meal| waiter.meal == self }
 end
+end
