@@ -17,6 +17,6 @@ def new_meal(customer, total, tip=0)
 end
 
 def meals
-  Meal.all.select { |meal| waiter.meal == self }
+  Meal.all.select { |meal| meal.waiter == self }
 end
 end
