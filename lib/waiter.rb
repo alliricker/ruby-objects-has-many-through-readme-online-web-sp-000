@@ -21,7 +21,7 @@ def meals
 end
 
 def best_tipper
-  @@all.map { |tips| meals.customer }
+  best_tipped_meal = meals.max { |meal_a, meal_b| meal_a.tip <=> meal_b.tip }
 end
 
 end
