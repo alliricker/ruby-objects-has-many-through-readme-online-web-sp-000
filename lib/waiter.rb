@@ -14,5 +14,5 @@ end
 
 def new_meal(customer, total, tip=0)
   Meal.new(customer, self, total, tip)
-
+end
 end
