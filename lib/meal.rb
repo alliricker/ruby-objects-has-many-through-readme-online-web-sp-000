@@ -9,7 +9,7 @@ def initialize(waiter, customer, total, tip)
 end
 
 def self.all
-  @@all << self
+  @@all 
 end
 
 end
