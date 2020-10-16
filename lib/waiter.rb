@@ -21,7 +21,7 @@ def meals
 end
 
 def best_tipper
-  @@all.map { |tips| meal.customer }
+  @@all.map { |tips| meals.customer }
 end
 
 end
